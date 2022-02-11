@@ -6,6 +6,22 @@
 
 int main() {
   
+  int mark1, mark2, total;
+  float average;
+
+  printf("Input marks of subject 1: ");
+  scanf("%d", &mark1);
+
+  printf("Input marks of subject 2: ");
+  scanf("%d", &mark2);
+
+  total = mark1 + mark2;
+  average = total/2.0;
+
+  printf("The average is %.2f ", average);
+
+
+
   return 0;
 }
 
